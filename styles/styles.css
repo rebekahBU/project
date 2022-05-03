@@ -183,7 +183,8 @@ button{
 .gloss{
     box-sizing:border-box;
     place-content: center;
-    background-image: url('images/fosh.jpeg');
+    background-color: #787d9a;
+    background-image: url('images/eel.jpeg');
  }
  *,
  *::before,
@@ -232,9 +233,9 @@ h2{
 .head{
     font-family: 'DM Serif Display', serif;
     padding-left: 35px;
-    color: #4b485d;
+    color: #cbdaf0;
     font-size:100px;
-    text-shadow: -1px -1px 0 #efeef6, 1px -1px 0 #efeef6, -1px 1px 0 #efeef6, 1px 1px 0 #efeef6;
+    text-shadow: -1px -1px 0 #4b485d, 1px -1px 0 #4b485d, -1px 3px 0 #4b485d, 1px 1px 0 #4b485d;
 }
 
 
