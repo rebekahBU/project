@@ -1,2 +1,245 @@
-/* ===== YOUR CSS GOES HERE ===== */
-/* ===== START WITH GLOBAL STYLES THEN USE MEDIA QUERIES FOR LAYOUT ADJUSTMENTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@200;300;500&family=Plus+Jakarta+Sans:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+.movingfish {
+    width: 75x;
+    height:75px;
+    position:fixed;
+    margin-left: 400px;
+    margin-top:50px;   
+    cursor: pointer;
+}
+
+#info{
+    background-color:#b0c9d3;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 3px;
+    height:350px;
+    width:500px;
+    position:fixed;
+    right:0;
+    bottom:0;
+    background-color:#b0c9d3;
+    display:none;
+}
+
+.home{
+    background-color:rgb(147, 186, 202);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+button{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    background-color:#b0c9d3;
+    border: 2px solid black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.filters{
+    text-align:center;
+}
+    
+#xOut{
+    height:40px; 
+    cursor: pointer;
+}
+
+#showName{
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 20px;
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+#showPic{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+#showInfo{
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+.mass{
+     margin-left: 0px;
+}
+
+
+#glossButton{
+    position:absolute;
+    top:7px;
+    right:5px;
+
+}
+
+#overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #999;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 100;
+}
+
+#popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color:#b0c9d3;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: black;
+    width: 500px;
+    height: 500px;
+    margin-left: -250px; 
+    margin-top: -250px; 
+    z-index: 200;
+}
+
+#popupclose {
+    float: left;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-style: bold;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 30px;
+    
+}
+
+.popupcontent {
+    text-align: center;
+  position: relative;
+  top: 40%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+  
+}
+
+#button {
+    cursor: pointer;
+}
+
+#showPic{
+    
+    height: 100px;
+    width:auto;
+    text-align: center;
+
+}
+
+.fish{
+    display: block;
+}
+.fishAway{
+    display: none;
+}
+
+
+@media screen and (max-width: 599px) {
+	img{
+        height:350px;
+        margin-top: 30%;
+
+    }
+    .movingfish{
+        height:50px;
+        margin-left: 40%;
+        margin-bottom: 50%;
+    }
+    #info{
+        
+        bottom:0;
+        text-align: center;
+    }
+    button{
+        font-size: 10px;
+    }
+    
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Staatliches&display=swap');
+
+
+.gloss{
+    box-sizing:border-box;
+    place-content: center;
+    background-image: url('images/fosh.jpeg');
+ }
+ *,
+ *::before,
+ *::after{
+   box-sizing:inherit;
+ }
+
+div.gallery {
+    margin: 20px;
+    border: 2px solid #4b485d;
+    float: left;
+    width: 95%;
+    min-height:300px;
+    background-color: #cbdaf0;
+    font-family: 'DM Serif Display', serif;
+    color: #4b485d;
+   
+  }
+  
+  div.gallery:hover {
+    background-color: #acb7ca;
+  }
+  
+  div.gallery img {
+      padding-top:10px;
+      max-width:300px;
+    max-height:200px;
+    display:block;
+        float:left;
+        padding: 25px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+h2{
+    font-family: 'DM Serif Display', serif;
+    padding-left: 15px;
+    color: #4b485d;
+    
+}
+
+.head{
+    font-family: 'DM Serif Display', serif;
+    padding-left: 35px;
+    color: #4b485d;
+    font-size:100px;
+    text-shadow: -1px -1px 0 #efeef6, 1px -1px 0 #efeef6, -1px 1px 0 #efeef6, 1px 1px 0 #efeef6;
+}
+
+
+ul{
+    
+    text-align: left;
+}
+
