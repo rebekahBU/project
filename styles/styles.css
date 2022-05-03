@@ -221,14 +221,14 @@ div.gallery {
     float: left;
     width: 95%;
     min-height:300px;
-    background-color: #c2bfd0;
+    background-color: #bfc5d0;
     font-family: 'DM Serif Display', serif;
     color: #4b485d;
    
   }
   
   div.gallery:hover {
-    background-color: #aba7c6;
+    background-color: #a7b2c6;
   }
   
   div.gallery img {
