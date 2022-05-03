@@ -154,7 +154,7 @@ button{
 
 
 @media screen and (max-width: 599px) {
-	img{
+	.mass{
         height:350px;
         margin-top: 30%;
 
@@ -168,6 +168,7 @@ button{
         
         bottom:0;
         text-align: center;
+        height:300px;
     }
     button{
         font-size: 10px;
@@ -185,10 +186,10 @@ button{
         padding-bottom: 5x;
     }
     #showInfo{
-        font-size: 10px;
+        font-size: 15px;
         font-family: 'Yanone Kaffeesatz', sans-serif;
-        margin-left: 20px;
-        margin-right: 20px;
+        
+        display: block;
        
     }
     xOut{
@@ -206,7 +207,7 @@ button{
     box-sizing:border-box;
     place-content: center;
     background-color: #787d9a;
-    background-image: url('images/eel.jpeg');
+    background-image: url('/images/fosh.jpeg');
  }
  *,
  *::before,
@@ -220,14 +221,14 @@ div.gallery {
     float: left;
     width: 95%;
     min-height:300px;
-    background-color: #cbdaf0;
+    background-color: #c2bfd0;
     font-family: 'DM Serif Display', serif;
     color: #4b485d;
    
   }
   
   div.gallery:hover {
-    background-color: #acb7ca;
+    background-color: #aba7c6;
   }
   
   div.gallery img {
@@ -255,9 +256,9 @@ h2{
 .head{
     font-family: 'DM Serif Display', serif;
     padding-left: 35px;
-    color: #cbdaf0;
+    color: #4b485d;
     font-size:100px;
-    text-shadow: -1px -1px 0 #4b485d, 1px -1px 0 #4b485d, -1px 3px 0 #4b485d, 1px 1px 0 #4b485d;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 3px 0 white, 1px 1px 0 white;
 }
 
 
