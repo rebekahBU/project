@@ -172,7 +172,29 @@ button{
     button{
         font-size: 10px;
     }
+
+    #showName{
+        font-family: 'Bebas Neue', cursive;
+        margin-left: 20px;
+        font-size: 20px;
+        padding-bottom: 5px;
     
+    }
+    #showPic{
+        margin-left: 20px;
+        padding-bottom: 5x;
+    }
+    #showInfo{
+        font-size: 10px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        margin-left: 20px;
+        margin-right: 20px;
+       
+    }
+    xOut{
+        top: 0;
+        height:10px;
+    }
 }
 
 
