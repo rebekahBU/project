@@ -6,9 +6,17 @@
 </head>
 <body>
 
+  <div class="filters">
+    <button onclick="filterFish()" id="fishFilter">Fish</button>
+        <button onclick="filterEchi()" id="echiFilter">Echinoderms</button>
+        <button onclick="filterCrust()" id="crustFilter">Crustaceans</button>
+    
+      
+  </div>
+
 <a href="index.html"><button id="glossButton" >Home</button></a>
 
-<div class="gallery" >
+<div class="gallery" id="eel" >
     <h2>   American Eel: (Anguilla rostrata)    </h2>
   <a>
     <img src="images/eel.jpeg" alt="American Eel" >
@@ -26,8 +34,8 @@
  </div>
  </div>
  
- <div class="gallery" >
-  <h2>   Atlantic Bonito (Sarda sarda)     </h2>
+ <div class="gallery"  id="bonito" >
+  <h2>   Atlantic Bonito (Sarda sarda)    </h2>
 <a>
   <img src="images/bonito.jpg" alt="Bonito" >
 </a>
@@ -46,7 +54,7 @@
 
 
 
-<div class="gallery" >
+<div class="gallery" id="shark" >
   <h2>   Blue Shark (Prionace glauca)     </h2>
 <a>
   <img src=" images/shark.jpg" alt=" Blue Shark " >
@@ -61,7 +69,7 @@
 </div>
 </div>
 
-<div class="gallery" >
+<div class="gallery" id="bluefinTuna">
   <h2>    Bluefin Tuna     </h2>
 <a>
   <img src="images/bluefin.jpg " alt=" Bluefin Tuna " >
@@ -80,7 +88,7 @@
 </div>
 </div>
 
-<div class="gallery" >
+<div class="gallery" id="cusk" >
   <h2>    Cusk (Brosme brosme)    </h2>
 <a>
   <img src=" images/cusk.jpg" alt="Cusk " >
@@ -96,7 +104,7 @@
 </div>
 </div>
 
-<div class="gallery" >
+<div class="gallery" id="monkfish">
   <h2>  Monkfish (Lophius americanus)    </h2>
 <a>
   <img src='images/monfishMain.jpg' alt="Monkfish " >
@@ -113,7 +121,7 @@
 </div>
 </div>
 
-<div class="gallery" >
+<div class="gallery" id="smelt" >
   <h2>    Rainbow Smelt (Osmerus mordax)
   </h2>
 <a>
@@ -133,7 +141,7 @@
 </div>
 
 
-<div class="gallery" >
+<div class="gallery" id="americanLobster">
   <h2>    American Lobster: (Anguilla rostrata)
   </h2>
 <a>
@@ -152,7 +160,7 @@
  </ul>
 </div>
 </div>
-  <div class="gallery" >
+  <div class="gallery" id='blueCrab'>
   <h2>    Blue Crab (Callinectes sapidus)
   </h2>
 <a>
@@ -170,7 +178,7 @@
 </div>
 </div>
 
-<div class="gallery" >
+<div class="gallery" id="cancerCrab" >
   <h2>   Cancer Crab     </h2>
 <a>
   <img src="images/cancerCrab.jpg " alt="  Cancer Crab " >
@@ -187,7 +195,7 @@
 </div>
 
 
-<div class="gallery" >
+<div class="gallery" id="seaCucumber">
   <h2>   Orange Footed Sea Cucumber 
   </h2>
 <a>
@@ -209,7 +217,7 @@
 
 
 
-<div class="gallery" >
+<div class="gallery" id="brittleStar" >
   <h2>    Long-Armed Brittle Star
   </h2>
 <a>
@@ -228,7 +236,7 @@
 </div>
 </div>
 
-<div class="gallery" >
+<div class="gallery" id="seaUrchin">
   <h2>   Atlantic Purple Sea Urchin (Arbacia punctulata) 
   </h2>
 <a>
@@ -247,8 +255,9 @@
 </div>
 
 
-<
 
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" ></script>
+<script src="scripts/scripts.js" defer></script>
 
 
 </body>

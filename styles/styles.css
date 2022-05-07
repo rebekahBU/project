@@ -172,6 +172,8 @@ button{
     }
     button{
         font-size: 10px;
+        margin-right:0;
+        display:block;
     }
 
     #showName{

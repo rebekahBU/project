@@ -3,6 +3,7 @@ const textArea = document.getElementById("info");
 
 // Fish Const
 const eel = document.getElementById('eel');
+const eels = document.getElementById('eels');
 const bonito = document.getElementById('bonito');
 const shark = document.getElementById('shark');
 const bluefinTuna = document.getElementById('bluefinTuna');
@@ -29,6 +30,24 @@ var closePopup = document.getElementById("popupclose");
 var overlay = document.getElementById("overlay");
 var popup = document.getElementById("popup");
 var button = document.getElementById("button");
+const fishFilter = document.getElementById("fishFilter");
+const crustFilter = document.getElementById("crustFilter");
+const echiFilter = document.getElementById("echiFilter");
+
+
+
+fishFilter.addEventListener('click', function() {
+ 
+  backgroundColor(fishFilter.id);
+});
+crustFilter.addEventListener('click', function() {
+ 
+  backgroundColor(crustFilter.id);
+});
+echiFilter.addEventListener('click', function() {
+ 
+  backgroundColor(echiFilter.id);
+});
 
 
 // Fish Event Listeners
@@ -243,7 +262,15 @@ function closeInfo() {
     }
   };
 
+function backgroundColor(data){
+  if (document.getElementById(data).style.background =='gray'){
+    document.getElementById(data).style.background ='#b0c9d3';
+  }
+  else{
+    document.getElementById(data).style.background ='gray';
+  }
 
+}
   
 // Filter Fish Funcitons
 
@@ -255,6 +282,7 @@ function closeInfo() {
     } else {
       x.style.display = "none";
     }
+    
     const y = document.getElementById('shark');
      if (y.style.display === "none") {
       y.style.display = "block";
