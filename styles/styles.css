@@ -209,7 +209,7 @@ button{
     box-sizing:border-box;
     place-content: center;
 
-    background-image: url('/images/fosh.jpeg');
+    background-image: url('/images/fosh.JPEG');
  }
  *,
  *::before,
