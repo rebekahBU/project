@@ -208,7 +208,7 @@ button{
 .gloss{
     box-sizing:border-box;
     place-content: center;
-    background-color: #787d9a;
+
     background-image: url('/images/fosh.jpeg');
  }
  *,
